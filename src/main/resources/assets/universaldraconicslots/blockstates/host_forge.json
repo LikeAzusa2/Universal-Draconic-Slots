@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "universaldraconicslots:block/host_forge"
+    },
+    "facing=south": {
+      "model": "universaldraconicslots:block/host_forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "universaldraconicslots:block/host_forge",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "universaldraconicslots:block/host_forge",
+      "y": 90
+    }
+  }
+}

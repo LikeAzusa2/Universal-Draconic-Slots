@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.likeazusa2.universaldraconicslots.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinArmorAbilities",
+    "MixinIModularArmor",
+    "MixinModularItemMenuContext",
+    "MixinModuleHelper",
+    "MixinModularArmorEventHandler"
+  ],
+  "client": [
+    "MixinEquippedItemModelLayer",
+    "MixinShieldHudElement"
+  ],
+  "server": []
+}
